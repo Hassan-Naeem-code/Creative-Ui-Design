@@ -31,4 +31,4 @@ jobs:
 
       # Deploys to Surge
       - name: Deploy to surge
-        run: surge ./build fast-food-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ fast-food-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
