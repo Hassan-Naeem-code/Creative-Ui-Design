@@ -11,3 +11,130 @@
     background-attachment: fixed;
     height: 100vh;
 }
+.font-6{
+    font-size: 6px !important;
+}
+.font-7{
+    font-size: 7px !important;
+}
+.font-8{
+    font-size: 8px !important;
+}
+.font-9{
+    font-size: 9px !important;
+}
+.font-10{
+    font-size: 10px !important;
+}
+.font-11{
+    font-size: 11px !important;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.font-13{
+    font-size: 13px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.font-15{
+    font-size: 15px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-30{
+    font-size: 30px;
+}
+.color-black{
+    color: black;
+}
+.color-white{
+    color: whitesmoke !important;
+}
+.color-yellow{
+    color: rgb(255, 158, 1);
+}
+.font-bold{
+    font-weight: 900;
+}
+.font-600{
+    font-weight: 600;
+}
+.font-700{
+    font-weight: 700;
+}
+.m-t-10{
+    margin-top: 10px;
+}
+.display-none{
+    display: none;
+}
+.display-inline-block{
+    display: inline-block;
+}
+.display-block{
+    display: block;
+}
+.position-absolute{
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.area-for-search{
+    width: 50%;
+    position: absolute;
+    top: 420px;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+.bg-white{
+    background-color: whitesmoke;
+}
+.search-bar-area{
+    width: 100%;
+}
+.bg-yellow{
+    background-color: rgb(250, 203, 95);
+}
+.border-none{
+    border: none;
+} 
+.outline-none{
+    outline: none;
+}
+.nav-section-show{
+    display: none !important;
+}
+.shadow-aside{
+    box-shadow: 5px 5px 1px #e4e4e4;
+}
+
+@media only screen and (max-width: 750px) {
+    .area-for-search{
+        width: 100%;
+        position: absolute;
+        top: 305px;
+        left: 42%;
+        transform: translate(-50%, -50%);
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .nav-section-hide{
+        display: none !important;
+    }
+    .nav-section-show{
+        display: block !important;
+    }
+    .area-for-search{
+        left: 49%;
+    }
+  }
