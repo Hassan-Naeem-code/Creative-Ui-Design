@@ -99,6 +99,9 @@
 .bg-white{
     background-color: whitesmoke;
 }
+.bg-247{
+    background-color: rgb(247, 247, 247);
+}
 .search-bar-area{
     width: 100%;
 }
